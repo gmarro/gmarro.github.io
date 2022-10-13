@@ -1,0 +1,75 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'gmarro.fr'
+paginate = 2
+DefaultContentLanguage = "fr"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+googleAnalytics = "UA-XXXX"
+theme = 'chunky-poster'
+
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "a-propos"
+    name = "A propos"
+    url = "/a-propos/"
+    weight = 0
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[params]
+  author = "Grégory MARRO"
+  description = "Architecture, Programmation et DevOps"
+  homepageImage = "/images/homepage-image.jpg"
+  dateFormat = "2 January 2006"
+  share = true
+  showLanguageSwitcher = false
+
+  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
+  customCSS = []
+  customJS = []
+
+  [params.social]
+    rss = true
+    email = "example@example.com"
+    facebook = "https://facebook.com"
+    twitter = "https://twitter.com"
+    linkedin = "https://linkedin.com"
+    stack-overflow = "https://stackoverflow.com"
+    instagram = "https://stackoverflow.com"
+    github = "https://github.com"
+    weibo = "https://www.weibo.com"
+    medium = "https://medium.com"
+    pinterest = "https://pinterest.com"
+    reddit = "https://reddit.com"
+    gitlab = "https://gitlab.com"
+    mastodon = "https://mastodon.social"
+    keybase = "https://keybase.io/"
+
+  [params.prismJS]
+    enable = true
+    theme = ""
+
+  [params.commento]
+    enable = false
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
