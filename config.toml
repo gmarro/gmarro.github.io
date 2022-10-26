@@ -1,75 +1,71 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'gmarro.fr'
-paginate = 2
-DefaultContentLanguage = "fr"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
-googleAnalytics = "UA-XXXX"
-theme = 'chunky-poster'
-
-[menu]
-  [[menu.main]]
-    identifier = "accueil"
-    name = "Accueil"
-    url = "/"
-    weight = 10
-  [[menu.main]]
-    identifier = "a-propos"
-    name = "A propos"
-    url = "/a-propos/"
-    weight = 0
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
-author = "authors"
+baseURL = "https://gmarro.fr"
+languageCode = "fr"
+title = "Grégory MARRO"
+theme = "hugo-initio"
 
 [params]
-  author = "Grégory MARRO"
-  description = "Architecture, Programmation et DevOps"
-  homepageImage = "/images/homepage-image.jpg"
-  dateFormat = "2 January 2006"
-  share = true
-  showLanguageSwitcher = false
+    name = "Grégory MARRO"
+    description = "Architecte IT Freelance"
+    email = "contact@gmarro.fr"
+    phone = ""
+    address = "Nice, France"
+    year = 2022
+    avatar = "images/gmarro.png"
+    avatarclass = "circle"
+    background = ""
+    banner = "images/bg_head.jpg"
+    favicon = "images/gt_favicon.png"
+    DateForm = "January 2, 2006"
+    author = "Sergey Pozhilov (GetTemplate.com)"
 
-  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
-  customCSS = []
-  customJS = []
+    showSubheader = true
+    showServices = true
+    showRecentWorks = true
+    showDownloads = false
+    showClients = true
 
-  [params.social]
-    rss = true
-    email = "example@example.com"
-    facebook = "https://facebook.com"
-    twitter = "https://twitter.com"
-    linkedin = "https://linkedin.com"
-    stack-overflow = "https://stackoverflow.com"
-    instagram = "https://stackoverflow.com"
-    github = "https://github.com"
-    weibo = "https://www.weibo.com"
-    medium = "https://medium.com"
-    pinterest = "https://pinterest.com"
-    reddit = "https://reddit.com"
-    gitlab = "https://gitlab.com"
-    mastodon = "https://mastodon.social"
-    keybase = "https://keybase.io/"
+    showFooterContact = true
+    showFooterFollowMe = true
+    showFooterTextWidget = true
+    showFooterFormWidget = false
 
-  [params.prismJS]
-    enable = true
-    theme = ""
+[[menu.main]]
+    name = "Accueil"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
 
-  [params.commento]
-    enable = false
-    url = "https://commento.io"
+[params.disqus]
+    site = ""
 
-[markup]
-  [markup.highlight]
-    codeFences = false
+[params.sharethis]
+    property = "123456789012345678901234"
+    custom = true
 
-[services]
-  [services.instagram]
-    disableInlineCSS = true
+[params.google.analytics]
+    trackerID = "GA-000000000-0"
 
-  [services.twitter]
-    disableInlineCSS = true
+[[params.social]]
+	title = "linkedin"
+	url = "https://www.linkedin.com/in/gregory.marro"
+    icon = "fab fa-linkedin"
+    footer = false
+    sharethis = true
+    network = "linkedin"
+[[params.social]]
+	title = "github"
+	url = "https://github.com/gmarro"
+    icon = "fab fa-github"
+    footer = true
+    sharethis = false
+    network = ""
+[[params.social]]
+	title = "email"
+	url = "mailto:contact@gmarro.fr"
+    icon = "fas fa-envelope-square"
+    footer = false
+    sharethis = true
+    network = "email"
