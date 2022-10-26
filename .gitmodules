@@ -1,6 +1,0 @@
-[submodule "themes/chunky-poster"]
-	path = themes/chunky-poster
-	url = https://github.com/puresyntax71/hugo-theme-chunky-poster.git
-[submodule "themes/hugo-initio"]
-	path = themes/hugo-initio
-	url = https://github.com/miguelsimoni/hugo-initio.git
