@@ -21,7 +21,7 @@ theme = "hugo-initio"
     showSubheader = true
     showServices = true
     showRecentWorks = true
-    showDownloads = false
+    showDownloads = true
     showClients = true
     showMenu = false
 
