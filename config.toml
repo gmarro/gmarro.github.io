@@ -23,6 +23,7 @@ theme = "hugo-initio"
     showRecentWorks = true
     showDownloads = false
     showClients = true
+    showMenu = false
 
     showFooterContact = true
     showFooterFollowMe = true
