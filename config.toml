@@ -52,7 +52,7 @@ theme = "hugo-initio"
 	title = "linkedin"
 	url = "https://www.linkedin.com/in/gregory.marro"
     icon = "fab fa-linkedin"
-    footer = false
+    footer = true
     sharethis = true
     network = "linkedin"
 [[params.social]]
@@ -63,9 +63,9 @@ theme = "hugo-initio"
     sharethis = false
     network = ""
 [[params.social]]
-	title = "email"
-	url = "mailto:contact@gmarro.fr"
-    icon = "fas fa-envelope-square"
-    footer = false
-    sharethis = true
-    network = "email"
+	title = "gitlab"
+	url = "https://gitlab.com/gmarro"
+    icon = "fab fa-gitlab"
+    footer = true
+    sharethis = false
+    network = ""
