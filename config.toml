@@ -50,7 +50,7 @@ theme = "hugo-initio"
 
 [[params.social]]
 	title = "linkedin"
-	url = "https://www.linkedin.com/in/gregory.marro"
+	url = "https://www.linkedin.com/in/grégory-marro-8a3a4089/"
     icon = "fab fa-linkedin"
     footer = true
     sharethis = true
