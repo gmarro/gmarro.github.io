@@ -14,7 +14,7 @@
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "SpringBoot",
                 "url": "#"
             }
         ]
@@ -31,6 +31,10 @@
             },
             {
                 "name": "VMWare",
+                "url": "#"
+            },
+            {
+                "name": "Veeam",
                 "url": "#"
             }
         ]
@@ -73,32 +77,40 @@
     },
     {
         "id": 4,
-        "name": "Lorem studios - interior and patio design",
+        "name": "Développement d'un portail Liferay DXP 7.2",
         "image": "images/s1.jpg",
         "url": "#",
         "items": [
             {
-                "name": "Web design",
+                "name": "Liferay",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "Java",
+                "url": "#"
+            },
+            {
+                "name": "OSGi",
                 "url": "#"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Lorem studios - interior and patio design",
+        "name": "Intégration Salesforce dans le SI",
         "image": "images/s1.jpg",
         "url": "#",
         "items": [
             {
-                "name": "Web design",
+                "name": "Heroku",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "PostgreSQL",
+                "url": "#"
+            },
+            {
+                "name": "Cloud",
                 "url": "#"
             }
         ]
