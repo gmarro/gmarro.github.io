@@ -2,7 +2,7 @@
     {
         "id": 0,
         "name": "Conception d'un système d'information de vente",
-        "image": "images/s1.jpg",
+        "image": "images/s2.webp",
         "url": "#",
         "items": [
             {
@@ -14,7 +14,7 @@
                 "url": "#"
             },
             {
-                "name": "SpringBoot",
+                "name": "Haute disponibilité",
                 "url": "#"
             }
         ]
@@ -22,7 +22,7 @@
     {
         "id": 1,
         "name": "Migration de datacenter",
-        "image": "images/s1.jpg",
+        "image": "images/s3.webp",
         "url": "#",
         "items": [
             {
@@ -42,7 +42,7 @@
     {
         "id": 2,
         "name": "Choix et mise en oeuvre d'une solution d'API Management",
-        "image": "images/s1.jpg",
+        "image": "images/s2.webp",
         "url": "#",
         "items": [
             {
@@ -58,7 +58,7 @@
     {
         "id": 3,
         "name": "Haute disponibilité Tomcat avec Docker Swarm",
-        "image": "images/s1.jpg",
+        "image": "images/s1.webp",
         "url": "#",
         "items": [
             {
@@ -78,7 +78,7 @@
     {
         "id": 4,
         "name": "Développement d'un portail Liferay DXP 7.2",
-        "image": "images/s1.jpg",
+        "image": "images/s1.webp",
         "url": "#",
         "items": [
             {
@@ -98,7 +98,7 @@
     {
         "id": 5,
         "name": "Intégration Salesforce dans le SI",
-        "image": "images/s1.jpg",
+        "image": "images/s2.webp",
         "url": "#",
         "items": [
             {
