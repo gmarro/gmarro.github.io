@@ -1,6 +1,6 @@
 +++
 title = "Télécharger"
-file = "http://www.gettemplate.com/downloads/initio.zip"
+file = "documents/Gregory_MARRO_CV.pdf"
 weight = 1
 +++
 
